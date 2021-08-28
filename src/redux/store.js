@@ -1,7 +1,7 @@
 import { createStore } from 'redux'
-import cakeReducer from './cake/cakeReducer'
+import rootReducer from './rootReducer'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
-const store = createStore(cakeReducer, composeWithDevTools())
+const store = createStore(rootReducer, composeWithDevTools())
 
 export default store
